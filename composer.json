@@ -9,8 +9,7 @@
   "homepage": "http://ipioo.com/",
   "license": "MIT",
   "require": {
-    "PHP": ">=7.1",
-    "ramsey/uuid": "^4.1"
+    "PHP": ">=7.1"
   },
   "authors": [
     {
