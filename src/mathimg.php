@@ -41,12 +41,10 @@ class mathimg{
 
         imagestring($img,5,80,rand(1,10),"?", $red);
 
-        header("content-type:image/png");
-
-        imagepng($img);
+        imagejpeg($img, 'haha.jpg');
 
         return [
-            'src'=>imagepng($img),
+            'src'=>"haha.jpg",
             'code'=>$num1.$rand.$num2,
         ];
 
