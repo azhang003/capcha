@@ -1,5 +1,5 @@
 <?php
-namespace capcha\src;
+namespace zhang003\imgcode;
 class gifpng{
     /**
      * ImageCode 生成GIF图片验证

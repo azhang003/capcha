@@ -9,7 +9,8 @@
   "homepage": "http://ipioo.com/",
   "license": "MIT",
   "require": {
-    "PHP": ">=7.1"
+    "PHP": ">=7.1",
+    "ext-gd": "*"
   },
   "authors": [
     {

@@ -1,5 +1,5 @@
 <?php
-namespace capcha\src;
+namespace zhang003\imgcode;
 Class GIFEncoder
 {
     var $GIF = "GIF89a";        /* GIF header 6 bytes    */

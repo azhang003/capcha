@@ -6,7 +6,7 @@
  * Date: 2022/1/11 00:00
  */
 
-use capcha\src\Code;
+use zhang003\imgcode\Code;
 
 require_once "vendor/autoload.php";
 

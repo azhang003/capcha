@@ -1,5 +1,5 @@
 <?php
-namespace yzimg;
+namespace zhang003\imgcode;
 class yzimg{
     function getValidate($w,$h){
 

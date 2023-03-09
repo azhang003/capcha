@@ -1,6 +1,6 @@
 <?php
 
-namespace capcha\src;
+namespace zhang003\imgcode;
 
 class Code{
     /**
