@@ -46,7 +46,7 @@ class mathimg{
         imagepng($img);
 
         return [
-            'src'=>imagedestroy($img),
+            'src'=>imagepng($img),
             'code'=>$num1.$rand.$num2,
         ];
 
