@@ -20,7 +20,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "capcha\\": "src"
+      "zhang003\\imgcode\\": "src"
     }
   }
 }
