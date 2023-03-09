@@ -1,0 +1,5 @@
+/.idea
+/.vscode
+.htaccess
+nginx.htaccess
+composer.lock
