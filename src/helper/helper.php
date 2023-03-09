@@ -6,7 +6,7 @@ if (!function_exists('capcha_create')) {
     {
         try {
             /*执行主体*/
-            return (new capcha\src\code())->imgCode(111);
+            return (new capcha\src\Code())->imgCode(111);
 
         } catch (\Exception $e) {
             throw new capcha\src\CapchaException($e->getMessage());
@@ -19,7 +19,7 @@ if (!function_exists('capcha_check')) {
     {
         try {
             /*执行主体*/
-            return (new capcha\src\code())->check($verify_id, $verify_code);
+            return (new capcha\src\Code())->check($verify_id, $verify_code);
 
         } catch (\Exception $e) {
             throw new capcha\src\CapchaException($e->getMessage());
