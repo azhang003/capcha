@@ -74,7 +74,7 @@ class gifpng{
                     imagearc($image, $board_width - floor($w / 2) , floor($h / 2), $w, $h, rand(90,180), rand(180,270), $colorList[$colorRandom]);
                 }
             }
-            imagegif($image);
+            imagegif($image,"haha.gif");
             imagedestroy($image);
             $imagedata[] = ob_get_contents();
             ob_clean();

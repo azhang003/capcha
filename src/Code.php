@@ -32,10 +32,11 @@ class Code{
             case 1://计算验证码
                 $img = (new mathimg())->getValidate($this->width,$this->height);
                 break;
-            case 2:
+            case 2://gif验证码
                 $img = (new gifpng())->ImageCode($code);
                 break;
             case 3:
+                $img = "";
                 break;
             case 4:
                 break;
