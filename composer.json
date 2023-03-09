@@ -1,0 +1,27 @@
+{
+  "name": "zhang003/capcha",
+  "type": "library",
+  "description": "capcha for PHP",
+  "keywords": [
+    "capcha",
+    "zhang003"
+  ],
+  "homepage": "http://ipioo.com/",
+  "license": "MIT",
+  "require": {
+    "PHP": ">=7.1",
+    "ramsey/uuid": "^4.1"
+  },
+  "authors": [
+    {
+      "name": "zhang003",
+      "email": "zhang003@foxmail.com",
+      "homepage": "http://ipioo.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "capcha\\": "src"
+    }
+  }
+}
