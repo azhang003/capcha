@@ -82,7 +82,7 @@ class gifpng{
         }
         $gif = new GIFEncoder();
         return [
-            'src' => $gif->GetAnimation(),
+            'src' => base64_encode($gif->GetAnimation()),
             "code" => $authstr
         ];
     }
